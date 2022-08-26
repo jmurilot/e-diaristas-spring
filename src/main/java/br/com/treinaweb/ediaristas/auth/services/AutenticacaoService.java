@@ -23,5 +23,5 @@ public class AutenticacaoService implements UserDetailsService {
             .map(UsuarioAutenticado::new)
             .orElseThrow(() -> new UsernameNotFoundException(mensagem));
     }
-
+    
 }
